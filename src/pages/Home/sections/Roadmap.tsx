@@ -1,22 +1,26 @@
 import React from "react";
-import ParticleBack from "components/ParticleBack";
+// import ParticleBack from "components/ParticleBack";
 import { mockDescription, mockRoadmap } from "mock/global";
-import Button from "components/Button";
+// import Button from "components/Button";
 import { ReactComponent as Foot } from "assets/svg/dog-foot.svg";
 
 const Roadmap = () => {
   return (
-    <div id="roadmap" className="relative w-full m-gap">
+    <div id="roadmap" className="relative w-full m-gap pb-[50vw]">
       {/* <ParticleBack></ParticleBack> */}
-      <div className="m-text-header text-right tracking-[1vw] m-container w-full sm:w-auto">
-        Roadmap
+      <div className="m-text-header text-center tracking-[1vw] m-container w-full sm:w-auton">
+        Our Roadmap
       </div>
       <div className="flex justify-end">
         <img
           src="/images/header-light.png"
           draggable="false"
-          className=" block scale-y-[-1]"
+          className=" block scale-y-[1]"
+          alt="Network"
         ></img>
+      </div>
+      <div className="absolute bottom-0">
+        <img src="/images/Hologram.png" alt="Hologram" />
       </div>
       <div className="relative w-full m-container text-center">
         <div className="m-mt m-text-normal w-full mx-auto max-w-[1000px]">
@@ -35,27 +39,29 @@ const Roadmap = () => {
                 <img
                   src={
                     id !== 2
-                      ? "/images/box-roadmap.png"
-                      : "/images/box-roadmap-last.png"
+                      ? "/images/Roadmap Box.png"
+                      : "/images/Roadmap Box late.png"
                   }
                   draggable="false"
                   className={
-                    "absolute top-0 -left-[10%] w-[110%] max-w-none aspect-[5/3] hidden md:block " +
+                    "absolute top-0 -left-[10%] w-[100%] max-w-none aspect-[5/3] hidden md:block " +
                     (id !== 2 ? "md:w-[150%] md:aspect-[6.25/3]" : "")
                   }
+                  alt="Roadmap Box"
                 ></img>
                 <img
-                  src={"/images/box-roadmap-last.png"}
+                  src={"/images/Roadmap Box late.png"}
                   draggable="false"
                   className={
                     "absolute top-0 -left-[10%] w-[110%] max-w-none aspect-[5/3] block md:hidden "
                   }
+                  alt="Roadmap Box late"
                 ></img>
-                <div className="relative h-full pt-[4.8%] pl-[12%] pr-[10%] pb-[8%]">
-                  <div className="h-[18%] m-text-big m-font text-left flex items-center">
+                <div className="relative h-full pt-[4.8%] pl-[10%] pr-[17%] pb-[8%]">
+                  <div className="h-[15%] m-text-big m-font text-left flex items-center">
                     {item.duration}
                   </div>
-                  <div className="mt-[8%] m-text-small text-left">
+                  <div className="mt-[12%] m-text-small text-left">
                     {item.data.map((it: any, i: number) => {
                       return (
                         <div

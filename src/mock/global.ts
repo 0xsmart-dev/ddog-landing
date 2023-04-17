@@ -1,32 +1,59 @@
 export const mockNavbar = [
+  { link: "#", text: "Home" },
   { link: "#about", text: "About" },
-  { link: "#mint", text: "NFT Mint" },
-  { link: "#staking", text: "Staking" },
-  { link: "#games", text: "Games" },
+  // { link: "#mint", text: "NFT Mint" },
+  // { link: "#staking", text: "Staking" },
+  // { link: "#games", text: "Games" },
   { link: "#roadmap", text: "Roadmap" },
-  { link: "#news", text: "News" },
+  // { link: "#news", text: "News" },
   { link: "#faqs", text: "FAQ" },
-  { link: "#team", text: "Team" },
+  { link: "#mint", text: "Mint" },
+  // { link: "#team", text: "Team" },
+  { link: "#swap", text: "Swap" },
 ];
 export const mockDescription = {
   main: `DDog Description here! DDog Description here! DDog Description
-              here! DDog Description here! DDog Description here! DDog
-              Description here! DDog Description here! DDog Description here!
+              here! 
               DDog Description here!`,
   about:
-    "is the P2E Game Protocol. It is P2E Game Protocol.It is P2E Game Protocol. It is P2E Game Protocol.It is P2E Game Protocol.It is P2E Game Protocol.It is P2E Game Protocol.is the P2E Game Protocol. It is P2E Game Protocol.It is P2E Game Protocol.It is P2E Game Protocol.It is P2E Game Protocol.It is P2E Game Protocol.It is P2E Game Protocol.is the P2E Game Protocol. It is P2E Game Protocol.It is P2E Game Protocol.It is P2E Game Protocol.It is P2E Game Protocol.It is P2E Game Protocol.It is P2E Game Protocol.",
+    "A collection of 10,000 avatars gives access to the Yard, where players can interact and play for crypto. Stake your NFT for rewards and a chance to hit jackpots!",
   mint: "Mint strategy here. Mint strategy here. Mint strategy here. Mint strategy here. Mint strategy here.Mint strategy here. Mint strategy here. Mint strategy here. Mint strategy here. Mint strategy here. Mint strategy here. Mint strategy here. Mint strategy here. ",
   staking:
     "We offer a liquidity pool for $EBONE and $EGLD, which means that you can stake your coins in our service for a set period of time (staking) or farm them (farming) in order to earn more rewards than you could on exchanges.",
-  p2e: `The Yard is our own arena where you can play poker against
-              opponents and earn rewards. Play to become the best poker player
-              out there. Every day, there's a chance to win both the Highhand
-              Jackpot and the Bad Beat Jackpot in our daily tournaments.
-              Risk-free gambling with huge payouts!`,
+  p2e: `Play games with other DDog owners! Games are secure and results are verifiable on-chain`,
   roadmap: `Please follow our road map`,
   news: "update your news and do not miss your opportunity.",
   team: "meet our team",
 };
+export const mockMain = [
+  {
+    header1: "downswing",
+    header2: "dogs club",
+    content1: "a web3 gaming hub built by the community",
+    content2:
+      "ddog description here!ddog description here!ddog description here!ddog description here!",
+    button: "MINT NFT",
+    imgUrl: "/images/Cards.png",
+  },
+  {
+    header1: "downswing",
+    header2: "dogs club",
+    content1: "a web3 gaming hub built by the community",
+    content2:
+      "ddog description here!ddog description here!ddog description here!ddog description here!",
+    button: "MINT NFT",
+    imgUrl: "/images/Cards.png",
+  },
+  {
+    header1: "downswing",
+    header2: "dogs club",
+    content1: "a web3 gaming hub built by the community",
+    content2:
+      "ddog description here!ddog description here!ddog description here!ddog description here!",
+    button: "MINT NFT",
+    imgUrl: "/images/Cards.png",
+  },
+];
 export const mockRewards = [
   {
     title: "NFT Mint",
@@ -44,6 +71,34 @@ export const mockRewards = [
       "THis is very good way to earn money please taken instant reward after minting NFT, At most $500.",
   },
 ];
+export const mockabout1 = [
+  {
+    imgUrl: "/images/png/Volume.png",
+    name: "Total volumn",
+    amount: "$XXX,XXX",
+  },
+  {
+    imgUrl: "/images/png/Owners.png",
+    name: "Total Owners",
+    amount: "XXX,XXX",
+  },
+  {
+    imgUrl: "/images/png/Treasury.png",
+    name: "Treasury",
+    amount: "$XXX,XXX",
+  },
+  {
+    imgUrl: "/images/png/Staked.png",
+    name: "Total Staked",
+    amount: "$XXX,XXX",
+  },
+];
+export const mockabout2 = {
+  imgUrl: "/images/png/EBone.png",
+  name: "Total Payouts",
+  amount: "XXX,XXX",
+};
+
 export const mockStaking = [
   {
     link: "/images/nft-list/nft1.png",
@@ -79,6 +134,26 @@ export const mockStaking = [
     link: "/images/nft-list/nft7.png",
     id: "0002",
     reward: "300SOL",
+  },
+];
+export const mockp2e = [
+  {
+    id: "001",
+    link: "/images/Play Box2.png",
+    content:
+      "Equip your ddog with customizable light cycles and compete on the racetrack for rewards and compete on the racetrack for rewards",
+  },
+  {
+    id: "002",
+    link: "/images/Play Box2.png",
+    content:
+      "and compete on the racetrack for rewards Equip your ddog with customizable light cycles ",
+  },
+  {
+    id: "003",
+    link: "/images/Play Box2.png",
+    content:
+      "light cycles and compete on the Equip your ddog with customizable racetrack for rewards on the Equip your ddog with customizable on the Equip your ddog with customizable",
   },
 ];
 export const mockRoadmap = [

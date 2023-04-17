@@ -31,14 +31,14 @@ const Home = () => {
       <Navbar />
       <Main />
       <About />
-      <Mint />
-      <Staking />
+      {/* <Mint />
+      <Staking /> */}
       <Play />
-      {/* <Roadmap />
+      <Roadmap />
       <News />
       <Questions />
       <Team />
-      <Footer /> */}
+      <Footer />
 
       {loading && (
         <div className="fixed z-[1000] flex items-center justify-center w-full top-0 left-0 h-screen backdrop-blur-md">

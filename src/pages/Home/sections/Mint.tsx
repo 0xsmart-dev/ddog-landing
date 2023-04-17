@@ -23,12 +23,6 @@ const Mint = () => {
         </div>
         <div className="m-mt">
           <div className="w-full max-w-[800px] mx-auto">
-            <video autoPlay muted loop>
-              <source
-                src={require("../../../assets/images/blind_box.mp4")}
-                type="video/mp4"
-              />
-            </video>
             <img src="/images/table-circle.png"></img>
           </div>
           <div className="flex justify-center items-center m-mt">

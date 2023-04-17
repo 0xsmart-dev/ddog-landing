@@ -14,6 +14,7 @@ module.exports = {
       main: "rgba(251, 251, 251, 0.7)",
       white: "#fff",
       black: "#000",
+      chart: "#f5bc63",
     },
     extend: {
       animation: {

@@ -32,8 +32,8 @@
     @apply mt-6 md:mt-8 lg:mt-14 xl:mt-16;
   }
   .m-text-header {
-    font-family: "Ethnocentric";
-    @apply text-4xl md:text-4xl lg:text-[48px] xl:text-[60px];
+    font-family: "Conthrax";
+    @apply italic uppercase text-4xl md:text-4xl lg:text-[48px] xl:text-[60px];
   }
   .m-text-large {
     @apply text-2xl md:text-3xl lg:text-4xl;
@@ -48,10 +48,7 @@
     @apply text-sm md:text-base lg:text-lg;
   }
   .m-font {
-    font-family: "Ethnocentric";
-  }
-  .m-font-seg {
-    font-family: "segments";
+    font-family: "Conthrax";
   }
 }
 
@@ -120,14 +117,6 @@ code {
   -ms-user-select: none;
   user-select: none;
 }
-.mask {
-  background-image: url("../public//images/Mark-group.png");
-  mask-image: radial-gradient(
-    27.12% 43.91% at 50% 47.26%,
-    rgba(10, 15, 29, 0.0528) 0%,
-    rgba(10, 15, 29, 0) 100%
-  );
-}
 .nft-mask {
   background: linear-gradient(180deg, #020204 0%, rgba(2, 2, 4, 0) 100%);
 }
@@ -161,4 +150,17 @@ code {
 }
 .active-foot path {
   fill: rgb(251, 255, 0);
+}
+
+.slick-prev,
+.slick-next {
+  display: none !important;
+}
+.slick-slider .slick-dots {
+  padding-top: 20px;
+  position: relative;
+  top: 0;
+}
+.slick-dots .slick-active div {
+  background: white !important;
 }

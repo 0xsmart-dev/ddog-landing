@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-import { ReactComponent as Logo } from "assets/svg/logo-third.svg";
+import { ReactComponent as Logo } from "assets/svg/logo.svg";
 import { ReactComponent as Menu } from "assets/svg/menu.svg";
 import { ReactComponent as Cross } from "assets/svg/cross.svg";
 import { ReactComponent as Twitter } from "assets/svg/twitter.svg";
